@@ -6,6 +6,17 @@
 
 #include <utility>
 
+Character::Character()
+        :name("Unnamed"),
+        level(1),
+        hp(100),
+        character_lifebar(100),
+        attack(10),
+        defense(10),
+        magic_attack(10),
+        magic_defense(10)
+        {}
+
 Character::Character(std::string name, int level, int hp, Lifebar character_lifebar(int count), int attack, int defense, int magic_attack, int magic_defense) {
     this -> name = std::move(name);
     this -> level = level;

@@ -19,8 +19,8 @@ private:
     int magic_attack; int magic_defense;
 public:
     // Constructors
-    Character() = default;
-    Character(std::string, int, int, Lifebar(int), int, int, int, int);
+    Character();
+    Character(std::string name, int level, int hp, Lifebar(int), int attack, int defense, int magic_attack, int magic_defense);
 
     // Setters
     void setCharacterName(std::string);

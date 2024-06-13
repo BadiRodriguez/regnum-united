@@ -7,4 +7,8 @@ add_executable(Regnum_United main.cpp
         entity_components/Character.cpp
         entity_components/Character.h
         entity_components/Lifebar.cpp
-        entity_components/Lifebar.h)
+        entity_components/Lifebar.h
+        entity_components/Weapon.cpp
+        entity_components/Weapon.h
+        entity_components/WeaponTemplate.cpp
+        entity_components/WeaponTemplate.h)
