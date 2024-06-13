@@ -9,6 +9,7 @@
 Character::Character()
         :name("Unnamed"),
         level(1),
+        experience(0),
         hp(100),
         character_lifebar(100),
         attack(10),
@@ -17,9 +18,10 @@ Character::Character()
         magic_defense(10)
         {}
 
-Character::Character(std::string name, int level, int hp, Lifebar character_lifebar(int count), int attack, int defense, int magic_attack, int magic_defense) {
+Character::Character(std::string name, int level, int experience, int hp, Lifebar character_lifebar(int count), int attack, int defense, int magic_attack, int magic_defense) {
     this -> name = std::move(name);
     this -> level = level;
+    this -> experience = experience;
     this -> hp = hp;
     this -> character_lifebar = character_lifebar(hp);
     this -> attack = attack;
@@ -39,6 +41,10 @@ void Character::setLevel(int new_level) {
     else{
         level = new_level;
     }
+}
+
+void Character::setExperience(int value) {
+    experience = value;
 }
 
 void Character::setAttack(int new_attack) {

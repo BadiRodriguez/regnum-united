@@ -21,6 +21,7 @@ public:
 
     void deductHp(int);
     void addHp(int);
+
     void displayLifebar() const;
 
     // Setters

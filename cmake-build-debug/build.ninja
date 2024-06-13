@@ -79,6 +79,12 @@ build CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.obj: CXX
   OBJECT_DIR = CMakeFiles\Regnum_United.dir
   OBJECT_FILE_DIR = CMakeFiles\Regnum_United.dir\entity_components
 
+build CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.obj: CXX_COMPILER__Regnum_United_unscanned_Debug C$:/Users/Badir/Documents/projects/Regnum_United/entity_components/Class.cpp || cmake_object_order_depends_target_Regnum_United
+  DEP_FILE = CMakeFiles\Regnum_United.dir\entity_components\Class.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Regnum_United.dir
+  OBJECT_FILE_DIR = CMakeFiles\Regnum_United.dir\entity_components
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Regnum_United
@@ -87,7 +93,7 @@ build CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.obj: CXX
 #############################################
 # Link the executable Regnum_United.exe
 
-build Regnum_United.exe: CXX_EXECUTABLE_LINKER__Regnum_United_Debug CMakeFiles/Regnum_United.dir/main.cpp.obj CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.obj CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.obj CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.obj CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.obj
+build Regnum_United.exe: CXX_EXECUTABLE_LINKER__Regnum_United_Debug CMakeFiles/Regnum_United.dir/main.cpp.obj CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.obj CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.obj CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.obj CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.obj CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Regnum_United.dir

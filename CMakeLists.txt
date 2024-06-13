@@ -11,4 +11,6 @@ add_executable(Regnum_United main.cpp
         entity_components/Weapon.cpp
         entity_components/Weapon.h
         entity_components/WeaponTemplate.cpp
-        entity_components/WeaponTemplate.h)
+        entity_components/WeaponTemplate.h
+        entity_components/Class.cpp
+        entity_components/Class.h)
