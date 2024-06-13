@@ -1,0 +1,3 @@
+C:/Users/Badir/Documents/projects/Regnum_United/cmake-build-debug/CMakeFiles/Regnum_United.dir
+C:/Users/Badir/Documents/projects/Regnum_United/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Badir/Documents/projects/Regnum_United/cmake-build-debug/CMakeFiles/rebuild_cache.dir
