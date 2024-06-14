@@ -14,7 +14,6 @@
 
 class Character : public Entity{
 private:
-    Entity entity;
     std::string name;
     int level;
     int experience;
@@ -48,7 +47,6 @@ public:
     // Additional methods
     void levelUp();
     void equipWeapon();
-
 
 };
 

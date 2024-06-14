@@ -13,25 +13,27 @@ class Weapon { // Super-class that will define all weapons that can be obtained 
 private:
     std::string name;
     int damage;
-    int value;
-    std::string damage_type; // This value can only be physical or magical (Physical is repelled with defense, Magical with magical defense.)
+    int price;
+    std::string damage_type; // This price can only be physical or magical (Physical is repelled with defense, Magical with magical defense.)
 public:
     // Constructors
     Weapon() = default;
-    Weapon(std::string _name, int _damage, int _value, std::string _damage_type);
+    Weapon(std::string _name, int _damage, int _price, std::string _damage_type);
 
     // Getters
     std::string get_damage_type() const {return damage_type;}
+    int get_damage() const {return damage;}
 
     // Additional method
     virtual void describe() const;
 
     // Overload the << operator for the Weapon class
     friend std::ostream& operator<<(std::ostream& os, const Weapon& weapon) {
-        os << "Weapon: " << weapon.name << ", Damage: " << weapon.damage << ", Value: " << weapon.value << ", Damage Type: " << weapon.damage_type;
+        os << "Weapon: " << weapon.name << ", Damage: " << weapon.damage << ", Price: " << weapon.price << ", Damage Type: " << weapon.damage_type;
         return os;
     }
 };
+
 
 
 #endif //REGNUM_UNITED_WEAPON_H

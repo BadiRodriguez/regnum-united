@@ -6,6 +6,7 @@
 
 Lifebar::Lifebar(int hp_value) {
     max_value = hp_value;
+    current_value = hp_value;
 }
 
 Lifebar::Lifebar(int hp_value, int bar_count) {

@@ -12,7 +12,7 @@ class Lifebar {
 private:
     int max_value;
     int bar_length = 20;
-    int current_value = max_value;
+    int current_value;
 public:
     // Constructors
     Lifebar() = default;
