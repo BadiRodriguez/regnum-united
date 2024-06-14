@@ -8,6 +8,8 @@
 
 struct Entity{ // Super-class that will mother all other character types of the game;
     bool interaction_status; // Single variable to distinguish playable from non-playable characters
+                            // true means that it is a playable character
+                            // false means that it is NOT a playable character
     bool is_playable() const {
         return interaction_status;
     }

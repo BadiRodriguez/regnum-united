@@ -13,6 +13,6 @@ Weapon::Weapon(std::string _name, int _damage, int _price, std::string _damage_t
 
 void Weapon::describe() const {
     std::cout <<
-              "Weapon: " << name << ", Damage: " << damage << ", Price: " << price << ", Damage Type: " << damage_type
+    "Weapon: " << name << ", Damage: " << damage << ", Price: " << price << ", Damage Type: " << damage_type
     << std::endl;
 }

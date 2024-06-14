@@ -18,7 +18,9 @@ Character::Character()
         magic_defense(10)
         {}
 
-Character::Character(std::string name, int level, int experience, int hp, Lifebar character_lifebar(int count), int attack, int defense, int magic_attack, int magic_defense) {
+Character::Character(std::string name, int level, int experience, int hp, Lifebar character_lifebar(int count), int attack, int defense, int magic_attack, int magic_defense):
+    Entity(true)
+    {
     this -> name = std::move(name);
     this -> level = level;
     this -> experience = experience;
