@@ -28,6 +28,7 @@ Character::Character(std::string name, int level, int experience, int hp, Lifeba
     this -> defense = defense;
     this -> magic_attack = magic_attack;
     this -> magic_defense = magic_defense;
+    entity.setInteraction_status(true);
 }
 
 void Character::setCharacterName(std::string new_name){

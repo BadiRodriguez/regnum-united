@@ -4,7 +4,6 @@
 
 #include "Weapon.h"
 
-
 Weapon::Weapon(std::string _name, int _damage, int _value, std::string _damage_type){
     name = std::move(_name);
     damage = _damage;
@@ -14,6 +13,6 @@ Weapon::Weapon(std::string _name, int _damage, int _value, std::string _damage_t
 
 void Weapon::describe() const {
     std::cout <<
-    "Weapon: " << name << ", Damage: " << damage << ", Damage Type: " << damage_type
+    "Weapon: " << name << ", Damage: " << damage << ", Value: " << value <<", Damage Type: " << damage_type
     << std::endl;
 }

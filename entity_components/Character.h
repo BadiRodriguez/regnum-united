@@ -9,9 +9,12 @@
 #include <string>
 #include <vector>
 #include "Lifebar.h"
+#include "Weapon.h"
+#include "Entity.h"
 
-class Character {
+class Character : public Entity{
 private:
+    Entity entity;
     std::string name;
     int level;
     int experience;
@@ -19,6 +22,8 @@ private:
     Lifebar character_lifebar;
     int attack; int defense;
     int magic_attack; int magic_defense;
+    Weapon right_hand; // Right hand weapon
+    Weapon left_hand; // Left hand weapon
 public:
     // Constructors
     Character();
@@ -42,7 +47,7 @@ public:
 
     // Additional methods
     void levelUp();
-
+    void equipWeapon();
 
 
 };

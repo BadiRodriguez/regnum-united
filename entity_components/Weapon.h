@@ -16,14 +16,19 @@ private:
     int value;
     std::string damage_type; // This value can only be physical or magical (Physical is repelled with defense, Magical with magical defense.)
 public:
-
+    // Constructors
+    Weapon() = default;
     Weapon(std::string _name, int _damage, int _value, std::string _damage_type);
+
+    // Getters
     std::string get_damage_type() const {return damage_type;}
+
+    // Additional method
     virtual void describe() const;
 
     // Overload the << operator for the Weapon class
     friend std::ostream& operator<<(std::ostream& os, const Weapon& weapon) {
-        os << "Weapon: " << weapon.name << ", Damage: " << weapon.damage << ", Damage Type: " << weapon.damage_type;
+        os << "Weapon: " << weapon.name << ", Damage: " << weapon.damage << ", Value: " << weapon.value << ", Damage Type: " << weapon.damage_type;
         return os;
     }
 };
