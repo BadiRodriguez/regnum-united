@@ -1,4 +1,4 @@
-|//
+//
 // Created by Badi on 6/11/2024.
 //
 
@@ -18,14 +18,14 @@ Character::Character()
         magic_defense(10)
         {}
 
-Character::Character(std::string name, int level, int experience, int hp, Lifebar character_lifebar(int count), int attack, int defense, int magic_attack, int magic_defense):
+Character::Character(std::string name, int level, int experience, int hp, Lifebar character_lifebar, int attack, int defense, int magic_attack, int magic_defense):
     Entity(true)
     {
     this -> name = std::move(name);
     this -> level = level;
     this -> experience = experience;
     this -> hp = hp;
-    this -> character_lifebar = character_lifebar(hp);
+    this -> character_lifebar = character_lifebar;
     this -> attack = attack;
     this -> defense = defense;
     this -> magic_attack = magic_attack;
@@ -92,4 +92,38 @@ void Character::levelUp(int num_of_levels) {
     std::cout << getCharacterName() << " leveled up!" << std::endl;
     std::cout << getLevel() << " -> " << getLevel() + num_of_levels;
     level += num_of_levels;
+}
+
+void Character::equipWeapon(const Weapon& rightHand, const Weapon& leftHand) {
+    // Implementation for equipping weapons
+}
+
+void Character::addSkill(std::unique_ptr<Skill> skill) {
+    skills.push_back(std::move(skill));
+}
+
+void Character::addSpell(std::unique_ptr<Spell> spell) {
+    spells.push_back(std::move(spell));
+}
+
+void Character::performSkill(const std::string &skillName, Character &target) {
+    for (const auto &skill : skills) {
+        if (skill->getName() == skillName) {
+            std::cout << name << " performs " << skillName << " on " << target.getCharacterName() << ", a " << skill->getType() << " type skill!" << std::endl;
+            skill->use(*this, target);
+            return;
+        }
+    }
+    std::cout << name << " doesn't know the skill " << skillName << std::endl;
+}
+
+void Character::castSpell(const std::string &spellName, Character &target) {
+    for (const auto &spell : spells) {
+        if (spell->getName() == spellName) {
+            std::cout << name << " casts " << spellName << " on " << target.getCharacterName() << ", a " << spell->getElementalType() << " elemental spell!" << std::endl;
+            spell->use(*this, target);
+            return;
+        }
+    }
+    std::cout << name << " doesn't know the spell " << spellName << std::endl;
 }

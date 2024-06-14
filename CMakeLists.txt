@@ -18,4 +18,8 @@ add_executable(Regnum_United main.cpp
         entity_components/Entity.h
         entity_components/Item.cpp
         entity_components/Item.h
-        entity_components/weapons_list.cpp)
+        entity_components/weapons_list.cpp
+        entity_components/Skill.cpp
+        entity_components/Skill.h
+        entity_components/Spell.cpp
+        entity_components/Spell.h)
