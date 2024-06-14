@@ -1,39 +1,41 @@
-
 #include <iostream>
 #include "entity_components/Land.h"
 
 int main() {
-    int opcion;
-
-    Caelid caelid;
+    // Create instances of each Land type
     Necrolimbo necrolimbo;
+    Caelid caelid;
     Ciudad_Eterna ciudadEterna;
-    Forja_de_gigante forjaDelGigante;
+    Forja_de_gigante forjaDeGigante;
 
-    caelid.addStructure(CamposAbiertos());
-    caelid.addStructure(Cuevas());
-    caelid.addStructure(Puentes());
+    // Add structures to Necrolimbo
+    necrolimbo.addStructure<Cuevas>();
+    necrolimbo.addStructure<Tuneles>();
 
-    necrolimbo.addStructure(Catacumbas());
-    necrolimbo.addStructure(Cuevas());
-    necrolimbo.addStructure(CamposAbiertos());
+    // Add structures to Caelid
+    caelid.addStructure<Catacumbas>();
+    caelid.addStructure<Puentes>();
 
-    ciudadEterna.addStructure(Puentes());
-    ciudadEterna.addStructure(CamposAbiertos());
+    // Add structures to Ciudad Eterna
+    ciudadEterna.addStructure<CamposAbiertos>();
+    ciudadEterna.addStructure<Tuneles>();
 
-    forjaDelGigante.addStructure(Puentes());
-    forjaDelGigante.addStructure(CamposAbiertos());
+    // Add structures to Forja de Gigante
+    forjaDeGigante.addStructure<Cuevas>();
+    forjaDeGigante.addStructure<Catacumbas>();
 
-    std:: cout << "----Elder Ring----" << std::endl;
-    std:: cout << "[Presione enter para continuar]" << std::endl;
-    std::cin.get();
+    // Describe each Land
+    necrolimbo.describe();
+    necrolimbo.printStructures();
 
-    std :: cout << "Elige tu clase de Personaje:" << std::endl;
+    caelid.describe();
+    caelid.printStructures();
 
-    std :: cout << "Elige una Land (Selecciona un numero): " << std::endl;
-    std :: cout << "1) Caelid" << std::endl;
-    std :: cout << "2) Necrolimbo" << std::endl;
-    std :: cout << "3) Ciudad Eterna" << std::endl;
-    std :: cout << "4) Forja del Gigante" << std::endl;
-    std :: cin >> opcion;
+    ciudadEterna.describe();
+    ciudadEterna.printStructures();
+
+    forjaDeGigante.describe();
+    forjaDeGigante.printStructures();
+
+    return 0;
 }
