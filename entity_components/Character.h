@@ -46,7 +46,9 @@ public:
 
     // Additional methods
     void levelUp();
-    void equipWeapon();
+    virtual void equipWeapon(Weapon rightHand, Weapon leftHand){
+
+    };
 
 };
 
