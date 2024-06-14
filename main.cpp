@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include "Land.h"
+#include "entity_components/Land.h"
 
 int main() {
     int opcion;
