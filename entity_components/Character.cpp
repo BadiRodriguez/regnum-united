@@ -85,7 +85,11 @@ void Character::setMagic_defense(int new_magic_defense) {
     }
 }
 
-void Character::levelUp() {
-    std::cout << getCharacterName() << " leveled up!";
-
+void Character::levelUp(int num_of_levels) {
+    if (num_of_levels <= 0){
+        return;
+    }
+    std::cout << getCharacterName() << " leveled up!" << std::endl;
+    std::cout << getLevel() << " -> " << getLevel() + num_of_levels;
+    level += num_of_levels;
 }

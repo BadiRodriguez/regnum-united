@@ -29,11 +29,11 @@ public:
     Character(std::string name, int level, int experience, int hp, Lifebar(int), int attack, int defense, int magic_attack, int magic_defense);
 
     // Setters
-    void setCharacterName(std::string);
-    void setLevel(int);
-    void setExperience(int);
-    void setAttack(int), setDefense(int);
-    void setMagic_attack(int), setMagic_defense(int);
+    void setCharacterName(std::string name);
+    void setLevel(int value);
+    void setExperience(int value);
+    void setAttack(int value), setDefense(int value);
+    void setMagic_attack(int value), setMagic_defense(int value);
 
     // Getters
     std::string getCharacterName() const {return name;};
@@ -45,7 +45,7 @@ public:
     int getMagic_defense() const {return magic_defense;};
 
     // Additional methods
-    void levelUp();
+    void levelUp(int num_of_levels);
     virtual void equipWeapon(Weapon rightHand, Weapon leftHand){
 
     };

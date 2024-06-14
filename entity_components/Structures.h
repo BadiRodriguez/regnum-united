@@ -6,63 +6,44 @@
 #define REGNUM_UNITED_STRUCTURES_H
 
 #include <iostream>
+#include <string>
 
-
-using namespace std;
-
-
-class Structures{
+class Structures {
 protected:
-    string name;
+    std::string name;
 public:
-    explicit Structures(const string& name){
-        this -> name = name;
-    }
+    explicit Structures(const std::string& name) : name(name) {}
 
     virtual void printName() const {
-        cout << "Name of the structure: " << name << endl;
+        std::cout << "These are the " << name << std::endl;
     }
-};
 
+    virtual ~Structures() = default; // Always good practice to have a virtual destructor in a base class
+};
 
 class Cuevas : public Structures {
 public:
     Cuevas() : Structures("Cuevas") {}
-    void printName() const override {
-        cout << "Hay " << name << endl;
-    }
 };
 
 class Tuneles : public Structures {
 public:
     Tuneles() : Structures("Tuneles") {}
-    void printName() const override {
-        cout << "Hay " << name << endl;
-    }
 };
 
 class Catacumbas : public Structures {
 public:
     Catacumbas() : Structures("Catacumbas") {}
-    void printName() const override {
-        cout << "Hay " << name << endl;
-    }
 };
 
 class Puentes : public Structures {
 public:
     Puentes() : Structures("Puentes") {}
-    void printName() const override {
-        cout << "Hay " << name << endl;
-    }
 };
 
 class CamposAbiertos : public Structures {
 public:
     CamposAbiertos() : Structures("Campos Abiertos") {}
-    void printName() const override {
-        cout << "Hay " << name << endl;
-    }
 };
 
 #endif //REGNUM_UNITED_STRUCTURES_H
