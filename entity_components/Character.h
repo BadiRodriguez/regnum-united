@@ -15,12 +15,13 @@
 class Skill;
 class Spell;
 
-class Character : public Entity{
+class Character : public Entity {
 
 private:
     std::string name;
     int level;
     int experience;
+    int experience_to_next_level;
     int hp;
     Lifebar character_lifebar;
     int attack;
@@ -57,10 +58,13 @@ public:
     int getMagic_attack() const { return magic_attack; }
     int getMagic_defense() const { return magic_defense; }
     int getAgility() const { return agility; }
+    int getExperienceToNextLevel() const { return experience_to_next_level; }
 
     // Additional methods
-    void levelUp(int num_of_levels);
+    void gainExperience(int exp);
+    void levelUp(int num_of_levels = 1);
     void equipWeapon(const Weapon& rightHand, const Weapon& leftHand);
+    void learnSkill(std::unique_ptr<Skill> skill);
 
     // Skill and Spell methods
     void addSkill(std::unique_ptr<Skill> skill);
@@ -74,6 +78,9 @@ public:
     void displayLifebar() const { character_lifebar.displayLifebar(); }
     int getCurrentHp() const { return character_lifebar.getCurrentValue(); }
     int getMaxHp() const { return character_lifebar.getMaxValue(); }
+
+    // Additional Methods
 };
 
 #endif //REGNUM_UNITED_CHARACTER_H
+

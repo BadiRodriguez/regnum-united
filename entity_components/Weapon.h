@@ -1,7 +1,3 @@
-//
-// Created by Badi on 6/13/2024.
-//
-
 #ifndef REGNUM_UNITED_WEAPON_H
 #define REGNUM_UNITED_WEAPON_H
 
@@ -21,8 +17,10 @@ public:
     Weapon(std::string _name, int _damage, int _price, std::string _damage_type);
 
     // Getters
-    std::string get_damage_type() const {return damage_type;}
-    int get_damage() const {return damage;}
+    std::string getDamageType() const { return damage_type; }
+    int getDamage() const { return damage; }
+    std::string getName() const { return name; }
+    int getPrice() const { return price; }
 
     // Additional method
     virtual void describe() const;
@@ -34,6 +32,5 @@ public:
     }
 };
 
-
-
 #endif //REGNUM_UNITED_WEAPON_H
+

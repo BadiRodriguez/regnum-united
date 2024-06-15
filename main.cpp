@@ -80,7 +80,5 @@ int main() {
              [&]() { std::cout << forjaDelGigante; },
              [&]() { exit(0); });
 
-
-
     }
 }

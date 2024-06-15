@@ -1,7 +1,3 @@
-//
-// Created by Badi on 6/14/2024.
-//
-
 #ifndef REGNUM_UNITED_DEMIGOD_H
 #define REGNUM_UNITED_DEMIGOD_H
 
@@ -19,7 +15,7 @@
 class Skill;
 class Spell;
 
-class Demigod : public Entity{
+class Demigod : public Entity {
 
 private:
     std::string name;
@@ -58,12 +54,14 @@ public:
     int getMagic_attack() const { return magic_attack; }
     int getMagic_defense() const { return magic_defense; }
     int getAgility() const { return agility; }
-    Weapon getRightHandWeapon() const { return right_hand; };
-    Weapon getLeftHandWeapon() const { return left_hand; };
+    Weapon getRightHandWeapon() const { return right_hand; }
+    Weapon getLeftHandWeapon() const { return left_hand; }
 
     // Unique methods
     void AssignRightHandWeapon(Weapon weapon);
     void AssignLeftHandWeapon(Weapon weapon);
+    void dropWeapons();
+    std::vector<std::unique_ptr<Skill>> releaseSkills();
 
     // Lifebar Methods
     void deductHp(int amount) { demigod_lifebar.deductHp(amount); }
@@ -73,6 +71,5 @@ public:
     int getMaxHp() const { return demigod_lifebar.getMaxValue(); }
 
 };
-
 
 #endif //REGNUM_UNITED_DEMIGOD_H
