@@ -4,7 +4,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <functional>
 #include "Structures.h"
 #include "Menu.h"
 
@@ -23,23 +22,16 @@ public:
         structure.emplace_back(new T(a));
     }
 
-    void showMenu() const {
-        vector<string> options(structure.size());
-        std::generate(options.begin(), options.end(), [&, n = 0]() mutable { return structure[n++]->getName(); });
-
-        vector<std::function<void()>> funcs(structure.size());
-        std::generate(funcs.begin(), funcs.end(), [&, n = 0]() mutable {
-            return [this, index = n++]() { structure[index]->printName(); };
-        });
-
-        Menu(options, funcs);
-    }
+    virtual void showMenu(vector<string> &options) {
+    };
 
     virtual ~Land() = default;
 
-    friend std::ostream& operator<<(std::ostream& os, const Land& land) {
+    friend std::ostream& operator<<(std::ostream& os, Land& land) {
         os << "Estas en la region de " << land.name << ", con las siguientes estructuras: " << endl;
-        land.showMenu();
+        vector<string> options(land.structure.size());
+        ranges::generate(options, [&, n = 0]() mutable { return land.structure[n++]->getName(); });
+        land.showMenu(options);
         return os;
     }
 };
@@ -47,21 +39,33 @@ public:
 class Necrolimbo : public Land {
 public:
     Necrolimbo() : Land("Necrolimbo") {}
+    void showMenu(vector<string> &options) override {
+        Menu(options, []{}, []{}, []{});
+    }
 };
 
 class Caelid : public Land {
 public:
     Caelid() : Land("Caelid") {}
+    void showMenu(vector<string> &options) override {
+        Menu(options, []{}, []{}, []{});
+    }
 };
 
 class Ciudad_Eterna : public Land {
 public:
     Ciudad_Eterna() : Land("Ciudad Eterna") {}
+    void showMenu(vector<string> &options) override {
+        Menu(options, []{}, []{});
+    }
 };
 
 class Forja_de_gigante : public Land {
 public:
     Forja_de_gigante() : Land("Forja de gigante") {}
+    void showMenu(vector<string> &options) override {
+        Menu(options, []{}, []{});
+    }
 };
 
 #endif //REGNUM_UNITED_LAND_H

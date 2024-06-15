@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug"/>
+				<Option working_dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Regnum_United">
-				<Option output="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug/Regnum_United" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug"/>
+				<Option output="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug/Regnum_United" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 Regnum_United"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 Regnum_United"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Regnum_United/fast">
-				<Option output="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug/Regnum_United" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug"/>
+				<Option output="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug/Regnum_United" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,100 +55,106 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 Regnum_United/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 Regnum_United/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug"/>
+				<Option working_dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug"/>
+				<Option working_dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Character.cpp">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Character.cpp">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Character.h">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Character.h">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Class.cpp">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Class.cpp">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Class.h">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Class.h">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Demigod.cpp">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Demigod.cpp">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Demigod.h">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Demigod.h">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Entity.cpp">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Entity.cpp">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Entity.h">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Entity.h">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Item.cpp">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Item.cpp">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Item.h">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Item.h">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Lifebar.cpp">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Lifebar.cpp">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Lifebar.h">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Lifebar.h">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Skill.cpp">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Monster.cpp">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Skill.h">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Monster.h">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Spell.cpp">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Skill.cpp">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Spell.h">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Skill.h">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Weapon.cpp">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Spell.cpp">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Weapon.h">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Spell.h">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/WeaponTemplate.cpp">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Weapon.cpp">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/WeaponTemplate.h">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Weapon.h">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/weapons_list.cpp">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/WeaponTemplate.cpp">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/main.cpp">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/WeaponTemplate.h">
 			<Option target="Regnum_United"/>
 		</Unit>
-		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/CMakeLists.txt">
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/weapons_list.cpp">
+			<Option target="Regnum_United"/>
+		</Unit>
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/main.cpp">
+			<Option target="Regnum_United"/>
+		</Unit>
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
