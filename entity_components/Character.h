@@ -83,4 +83,3 @@ public:
 };
 
 #endif //REGNUM_UNITED_CHARACTER_H
-

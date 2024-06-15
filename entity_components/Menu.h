@@ -1,50 +1,38 @@
 #ifndef MENU_H
 #define MENU_H
 
-#include <iostream>
 #include <vector>
-#include <tuple>
+#include <functional>
+#include <iostream>
+#include <stdexcept>
+#include <limits>
 
-template<int index = 0, typename... Types>
-void displayMenu(const std::vector<std::string>& options, const std::tuple<Types...>& funcs) {
-    if constexpr (index < sizeof...(Types)) {
-        std::cout << index + 1 << ") " << options[index] << std::endl;
-        displayMenu<index + 1>(options, funcs);
-    }
-}
+template <typename... Funcs>
+void Menu(const std::vector<std::string>& options, Funcs... funcs) {
+    std::vector<std::function<void()>> functions = {funcs...};
 
-template<int index = 0, typename... Types>
-void selectOption(int selection, const std::tuple<Types...>& funcs) {
-    if constexpr (index < sizeof...(Types)) {
-        if (index == selection - 1) {
-            auto func = std::get<index>(funcs); func();
-        } else {
-            selectOption<index + 1>(selection, funcs);
-        }
-    }
-}
-
-template<typename... Types>
-void Menu(const std::vector<std::string>& options, Types... funcs) {
-    if (options.size() != sizeof...(funcs)) {
+    if (options.size() != functions.size()) {
         throw std::invalid_argument("Number of options and functions must match");
     }
 
-    auto funcsTuple = std::make_tuple(funcs...);
-
-    displayMenu(options, funcsTuple);
-
-    std::cout << "Select an option: ";
-    std::string input; std::cin >> input;
-    try {
-        int selection = stoi(input);
-        if (0 < selection && selection <= options.size()) {
-            selectOption(selection, funcsTuple);
-        } else {
-            std::cout << "Out of range option selected." << std::endl;
+    int choice;
+    while (true) {
+        std::cout << "Select an option:\n";
+        for (size_t i = 0; i < options.size(); ++i) {
+            std::cout << i + 1 << ") " << options[i] << "\n";
         }
-    } catch (std::invalid_argument&) {
-        std::cout << "Invalid option selected." << std::endl;
+        std::cin >> choice;
+
+        if (std::cin.fail() || choice < 1 || choice > static_cast<int>(functions.size())) {
+            std::cin.clear(); // clear the error flag
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // discard invalid input
+            std::cout << "Invalid choice! Please try again.\n";
+        } else {
+            if (options[choice - 1] == "Volver al menú principal") {
+                break; // Exit the menu loop to return to the main menu
+            }
+            functions[choice - 1]();
+        }
     }
 }
 

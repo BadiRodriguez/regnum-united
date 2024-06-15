@@ -135,4 +135,3 @@ void Character::castSpell(const std::string &spellName, Character &target) {
     }
     std::cout << name << " doesn't know the spell " << spellName << std::endl;
 }
-

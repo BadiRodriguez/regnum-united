@@ -1,52 +1,35 @@
-//
-// Created by User on 14/06/2024.
-//
+#ifndef STRUCTURES_H
+#define STRUCTURES_H
 
-#ifndef REGNUM_UNITED_STRUCTURES_H
-#define REGNUM_UNITED_STRUCTURES_H
-
-#include <iostream>
 #include <string>
-#include <utility>
 
 class Structures {
 protected:
     std::string name;
+
 public:
-    explicit Structures(std::string  name) : name(std::move(name)) {}
-
-    std::string getName(){ return name; }
-
-    virtual void printName() const {
-        std::cout << "These are the " << name << std::endl;
-    }
-
-    virtual ~Structures() = default; // Always good practice to have a virtual destructor in a base class
-};
-
-class Cuevas : public Structures {
-public:
-    Cuevas() : Structures("Cuevas") {}
-};
-
-class Tuneles : public Structures {
-public:
-    Tuneles() : Structures("Tuneles") {}
-};
-
-class Catacumbas : public Structures {
-public:
-    Catacumbas() : Structures("Catacumbas") {}
-};
-
-class Puentes : public Structures {
-public:
-    Puentes() : Structures("Puentes") {}
+    virtual ~Structures() = default;
+    std::string getName() const { return name; } // Marking getName as const
 };
 
 class CamposAbiertos : public Structures {
 public:
-    CamposAbiertos() : Structures("Campos Abiertos") {}
+    CamposAbiertos() { name = "Campos Abiertos"; }
 };
 
-#endif //REGNUM_UNITED_STRUCTURES_H
+class Cuevas : public Structures {
+public:
+    Cuevas() { name = "Cuevas"; }
+};
+
+class Puentes : public Structures {
+public:
+    Puentes() { name = "Puentes"; }
+};
+
+class Catacumbas : public Structures {
+public:
+    Catacumbas() { name = "Catacumbas"; }
+};
+
+#endif // STRUCTURES_H

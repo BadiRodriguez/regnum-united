@@ -33,4 +33,3 @@ public:
 };
 
 #endif //REGNUM_UNITED_WEAPON_H
-

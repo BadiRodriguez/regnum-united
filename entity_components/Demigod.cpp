@@ -50,5 +50,3 @@ std::vector<std::unique_ptr<Skill>> Demigod::releaseSkills() {
     std::cout << name << " has released their skills upon death." << std::endl;
     return std::move(skills);
 }
-
-

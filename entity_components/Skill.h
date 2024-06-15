@@ -1,28 +1,23 @@
-
 #ifndef SKILL_H
 #define SKILL_H
 
-#include <iostream>
 #include <string>
 #include <functional>
-#include "Character.h"
-
-class Character; // Forward declaration
-class Demigod; // Forward declaration
+#include "Entity.h"
 
 class Skill {
-public:
-    Skill(std::string name, std::string type, std::function<void(Entity&, Entity&)> formula, bool heals = false);
-
-    const std::string &getName() const;
-    const std::string &getType() const;
-    void use(Entity &user, Entity &target) const;
-
 private:
     std::string name;
     std::string type;
     std::function<void(Entity&, Entity&)> formula;
     bool heals;
+
+public:
+    Skill(std::string name, std::string type, std::function<void(Entity&, Entity&)> formula, bool heals = false);
+
+    void use(Entity &user, Entity &target) const;
+    std::string getName() const;
+    std::string getType() const;
 };
 
 #endif // SKILL_H
