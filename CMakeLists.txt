@@ -26,4 +26,5 @@ add_executable(Regnum_United main.cpp
         entity_components/Demigod.cpp
         entity_components/Demigod.h
         entity_components/Monster.cpp
-        entity_components/Monster.h)
+        entity_components/Monster.h
+        entity_components/Combat.h)

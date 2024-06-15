@@ -2474,11 +2474,14 @@ CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.o: /home/jfpro/U
 
 CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/main.cpp \
   /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Character.h \
+  /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Combat.h \
   /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Demigod.h \
   /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Entity.h \
+  /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Item.h \
   /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Land.h \
   /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Lifebar.h \
   /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Menu.h \
+  /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Monster.h \
   /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Skill.h \
   /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Spell.h \
   /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Structures.h \
@@ -2499,12 +2502,21 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/fp-logb.h \
   /usr/include/bits/getopt_core.h \
   /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/iscanonical.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
   /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/mathcalls.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/posix2_lim.h \
   /usr/include/bits/posix_opt.h \
@@ -2616,6 +2628,8 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
   /usr/include/c++/14.1.1/bits/postypes.h \
   /usr/include/c++/14.1.1/bits/predefined_ops.h \
   /usr/include/c++/14.1.1/bits/ptr_traits.h \
+  /usr/include/c++/14.1.1/bits/random.h \
+  /usr/include/c++/14.1.1/bits/random.tcc \
   /usr/include/c++/14.1.1/bits/range_access.h \
   /usr/include/c++/14.1.1/bits/ranges_algo.h \
   /usr/include/c++/14.1.1/bits/ranges_algobase.h \
@@ -2628,6 +2642,7 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
   /usr/include/c++/14.1.1/bits/shared_ptr.h \
   /usr/include/c++/14.1.1/bits/shared_ptr_atomic.h \
   /usr/include/c++/14.1.1/bits/shared_ptr_base.h \
+  /usr/include/c++/14.1.1/bits/specfun.h \
   /usr/include/c++/14.1.1/bits/std_abs.h \
   /usr/include/c++/14.1.1/bits/std_function.h \
   /usr/include/c++/14.1.1/bits/std_mutex.h \
@@ -2640,6 +2655,7 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
   /usr/include/c++/14.1.1/bits/stl_iterator.h \
   /usr/include/c++/14.1.1/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/14.1.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.1.1/bits/stl_numeric.h \
   /usr/include/c++/14.1.1/bits/stl_pair.h \
   /usr/include/c++/14.1.1/bits/stl_raw_storage_iter.h \
   /usr/include/c++/14.1.1/bits/stl_relops.h \
@@ -2662,6 +2678,7 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
   /usr/include/c++/14.1.1/cerrno \
   /usr/include/c++/14.1.1/climits \
   /usr/include/c++/14.1.1/clocale \
+  /usr/include/c++/14.1.1/cmath \
   /usr/include/c++/14.1.1/compare \
   /usr/include/c++/14.1.1/concepts \
   /usr/include/c++/14.1.1/cstddef \
@@ -2686,19 +2703,35 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
   /usr/include/c++/14.1.1/iosfwd \
   /usr/include/c++/14.1.1/iostream \
   /usr/include/c++/14.1.1/istream \
+  /usr/include/c++/14.1.1/limits \
   /usr/include/c++/14.1.1/memory \
   /usr/include/c++/14.1.1/new \
   /usr/include/c++/14.1.1/numbers \
+  /usr/include/c++/14.1.1/numeric \
   /usr/include/c++/14.1.1/ostream \
   /usr/include/c++/14.1.1/pstl/execution_defs.h \
   /usr/include/c++/14.1.1/pstl/glue_algorithm_defs.h \
   /usr/include/c++/14.1.1/pstl/glue_memory_defs.h \
+  /usr/include/c++/14.1.1/pstl/glue_numeric_defs.h \
   /usr/include/c++/14.1.1/pstl/pstl_config.h \
+  /usr/include/c++/14.1.1/random \
   /usr/include/c++/14.1.1/stdexcept \
   /usr/include/c++/14.1.1/streambuf \
   /usr/include/c++/14.1.1/string \
   /usr/include/c++/14.1.1/string_view \
   /usr/include/c++/14.1.1/system_error \
+  /usr/include/c++/14.1.1/tr1/bessel_function.tcc \
+  /usr/include/c++/14.1.1/tr1/beta_function.tcc \
+  /usr/include/c++/14.1.1/tr1/ell_integral.tcc \
+  /usr/include/c++/14.1.1/tr1/exp_integral.tcc \
+  /usr/include/c++/14.1.1/tr1/gamma.tcc \
+  /usr/include/c++/14.1.1/tr1/hypergeometric.tcc \
+  /usr/include/c++/14.1.1/tr1/legendre_function.tcc \
+  /usr/include/c++/14.1.1/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/14.1.1/tr1/poly_hermite.tcc \
+  /usr/include/c++/14.1.1/tr1/poly_laguerre.tcc \
+  /usr/include/c++/14.1.1/tr1/riemann_zeta.tcc \
+  /usr/include/c++/14.1.1/tr1/special_function_util.h \
   /usr/include/c++/14.1.1/tuple \
   /usr/include/c++/14.1.1/type_traits \
   /usr/include/c++/14.1.1/typeinfo \
@@ -2715,6 +2748,7 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
   /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/opt_random.h \
   /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
@@ -2728,6 +2762,7 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
   /usr/include/linux/errno.h \
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
+  /usr/include/math.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -2751,11 +2786,49 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/syslimits.h
 
 
+/usr/include/math.h:
+
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/opt_random.h:
+
+/usr/include/c++/14.1.1/tr1/special_function_util.h:
+
+/usr/include/c++/14.1.1/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/14.1.1/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/14.1.1/tr1/legendre_function.tcc:
+
+/usr/include/c++/14.1.1/tr1/gamma.tcc:
+
+/usr/include/c++/14.1.1/tr1/exp_integral.tcc:
+
+/usr/include/c++/14.1.1/tr1/ell_integral.tcc:
+
+/usr/include/c++/14.1.1/tr1/bessel_function.tcc:
+
+/usr/include/c++/14.1.1/random:
+
+/usr/include/c++/14.1.1/numeric:
+
+/usr/include/c++/14.1.1/cmath:
+
+/usr/include/c++/14.1.1/bits/stl_numeric.h:
+
 /usr/include/c++/14.1.1/bits/stl_heap.h:
+
+/usr/include/c++/14.1.1/bits/specfun.h:
 
 /usr/include/c++/14.1.1/bits/algorithmfwd.h:
 
+/usr/include/bits/mathcalls-narrow.h:
+
+/usr/include/bits/mathcalls-helper-functions.h:
+
+/usr/include/bits/flt-eval-method.h:
+
 /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Land.h:
+
+/home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Combat.h:
 
 /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/main.cpp:
 
@@ -2832,6 +2905,8 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
 /usr/include/c++/14.1.1/bits/atomic_lockfree_defines.h:
 
 /usr/include/bits/stdio_lim.h:
+
+/usr/include/c++/14.1.1/tr1/riemann_zeta.tcc:
 
 /usr/include/bits/types/__mbstate_t.h:
 
@@ -2937,7 +3012,11 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
 
 /usr/include/bits/long-double.h:
 
+/usr/include/bits/math-vector.h:
+
 /usr/include/bits/uio_lim.h:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
 
 /usr/include/c++/14.1.1/bits/unordered_map.h:
 
@@ -2979,6 +3058,8 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
 
 /usr/include/linux/errno.h:
 
+/usr/include/c++/14.1.1/limits:
+
 /usr/include/bits/types/FILE.h:
 
 /usr/include/c++/14.1.1/bits/charconv.h:
@@ -2998,6 +3079,8 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
 /usr/include/c++/14.1.1/bits/localefwd.h:
 
 /usr/include/bits/stdint-least.h:
+
+/usr/include/c++/14.1.1/pstl/glue_numeric_defs.h:
 
 /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Monster.cpp:
 
@@ -3099,6 +3182,8 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
 
 /usr/include/c++/14.1.1/bits/new_allocator.h:
 
+/usr/include/c++/14.1.1/bits/random.tcc:
+
 /usr/include/c++/14.1.1/bits/node_handle.h:
 
 /usr/include/bits/wordsize.h:
@@ -3119,6 +3204,8 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
 
 /usr/include/c++/14.1.1/bits/predefined_ops.h:
 
+/usr/include/c++/14.1.1/bits/random.h:
+
 /usr/include/stdc-predef.h:
 
 /usr/include/bits/types/struct_itimerspec.h:
@@ -3133,6 +3220,8 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
 
 /usr/include/sys/single_threaded.h:
 
+/usr/include/bits/mathcalls.h:
+
 /usr/include/c++/14.1.1/array:
 
 /usr/include/c++/14.1.1/cstdint:
@@ -3146,6 +3235,8 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
 /usr/include/c++/14.1.1/bits/shared_ptr.h:
 
 /usr/include/c++/14.1.1/string_view:
+
+/usr/include/c++/14.1.1/tr1/poly_hermite.tcc:
 
 /usr/include/time.h:
 
@@ -3247,6 +3338,8 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
 
 /usr/include/c++/14.1.1/iosfwd:
 
+/usr/include/bits/fp-logb.h:
+
 /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Spell.h:
 
 /usr/include/c++/14.1.1/iostream:
@@ -3257,7 +3350,11 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
 
 /usr/include/c++/14.1.1/istream:
 
+/usr/include/c++/14.1.1/tr1/hypergeometric.tcc:
+
 /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++locale.h:
+
+/usr/include/c++/14.1.1/tr1/beta_function.tcc:
 
 /usr/include/c++/14.1.1/memory:
 
@@ -3276,6 +3373,8 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
 /usr/include/c++/14.1.1/numbers:
 
 /usr/include/c++/14.1.1/pstl/glue_memory_defs.h:
+
+/usr/include/bits/iscanonical.h:
 
 /usr/include/c++/14.1.1/bits/ranges_uninitialized.h:
 
@@ -3324,6 +3423,8 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación
 /usr/include/endian.h:
 
 /usr/include/stdint.h:
+
+/usr/include/bits/fp-fast.h:
 
 /usr/include/wctype.h:
 
