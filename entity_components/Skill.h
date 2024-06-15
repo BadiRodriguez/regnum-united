@@ -12,16 +12,16 @@ class Demigod; // Forward declaration
 
 class Skill {
 public:
-    Skill(std::string name, std::string type, std::function<void(Character&, Character&)> formula, bool heals = false);
+    Skill(std::string name, std::string type, std::function<void(Entity&, Entity&)> formula, bool heals = false);
 
     const std::string &getName() const;
     const std::string &getType() const;
-    void use(Character &user, Character &target) const;
+    void use(Entity &user, Entity &target) const;
 
 private:
     std::string name;
     std::string type;
-    std::function<void(Character&, Character&)> formula;
+    std::function<void(Entity&, Entity&)> formula;
     bool heals;
 };
 

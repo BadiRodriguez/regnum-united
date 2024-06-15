@@ -1,12 +1,12 @@
 # ninja log v5
 104	1105	7401203130229865	CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.obj	6eec62981629a7ea
+27	1123	7401204737421279	CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.obj	b9ddb1bf0f9e3b5c
 95	1124	7401203130249865	CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.obj	216c1dc66486bce1
 71	1174	7401203130851487	CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.obj	751b10d02f19f2a2
-77	1195	7401203130966703	CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.obj	3a8011ca4804fb12
-1108	1217	7401203131262427	CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.obj	9c707ab1863f2c95
 1124	1248	7401203131628418	CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.obj	b128dafd8312397f
+77	1195	7401203130966703	CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.obj	3a8011ca4804fb12
 1174	2211	7401203141351713	CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.obj	eb1ddbabb8be5084
-27	1123	7401204737421279	CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.obj	b9ddb1bf0f9e3b5c
+1108	1217	7401203131262427	CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.obj	9c707ab1863f2c95
 32	1239	7401204738594236	CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.obj	48d9b7c6c17a20c8
 37	1291	7401204739110315	CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.obj	c76202d73858f6ba
 22	1433	7401204740543646	CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.obj	3236b477a026ab6d
