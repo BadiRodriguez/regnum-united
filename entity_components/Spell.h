@@ -6,6 +6,10 @@
 #include <string>
 #include <functional>
 #include "Character.h"
+#include "Demigod.h"
+
+class Character; // Forward declaration
+class Demigod; // Forward declaration
 
 class Spell {
 public:

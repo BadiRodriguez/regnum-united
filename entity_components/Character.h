@@ -11,7 +11,12 @@
 #include "Skill.h"
 #include "Spell.h"
 
-class Character : public Entity {
+// Forward declarations
+class Skill;
+class Spell;
+
+class Character : public Entity{
+
 private:
     std::string name;
     int level;
@@ -31,7 +36,7 @@ private:
 public:
     // Constructors
     Character();
-    Character(std::string name, int level, int experience, int hp, Lifebar character_lifebar, int attack, int defense, int magic_attack, int magic_defense, int agility);
+    Character(std::string name, int level, int experience, int hp, int attack, int defense, int magic_attack, int magic_defense, int agility);
 
     // Setters
     void setCharacterName(std::string name);
@@ -62,6 +67,13 @@ public:
     void addSpell(std::unique_ptr<Spell> spell);
     void performSkill(const std::string &skillName, Character &target);
     void castSpell(const std::string &spellName, Character &target);
+
+    // Lifebar Methods
+    void deductHp(int amount) { character_lifebar.deductHp(amount); }
+    void addHp(int amount) { character_lifebar.addHp(amount); }
+    void displayLifebar() const { character_lifebar.displayLifebar(); }
+    int getCurrentHp() const { return character_lifebar.getCurrentValue(); }
+    int getMaxHp() const { return character_lifebar.getMaxValue(); }
 };
 
 #endif //REGNUM_UNITED_CHARACTER_H

@@ -48,10 +48,11 @@ int main() {
     forjaDeGigante.describe();
     forjaDeGigante.printStructures();
 
-    Character hero("Hero", 1, 0, 100, Lifebar(100), 15, 10, 20, 10);
-    Character enemy("Enemy", 1, 0, 80, Lifebar(80), 10, 5, 15, 5);
+    Character hero("Hero", 1, 0, 100, 15, 10, 20, 10, 10);
+    Character enemy("Enemy", 1, 0, 80, 10, 5, 15, 10, 5);
+
+    hero.displayLifebar();
 
     return 0;
 
-    return 0;
 }

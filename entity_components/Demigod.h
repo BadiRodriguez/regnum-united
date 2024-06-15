@@ -5,12 +5,19 @@
 #ifndef REGNUM_UNITED_DEMIGOD_H
 #define REGNUM_UNITED_DEMIGOD_H
 
-#include "Entity.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <memory>
 #include "Lifebar.h"
 #include "Weapon.h"
+#include "Entity.h"
 #include "Skill.h"
-#include <iostream>
-#include <vector>
+#include "Spell.h"
+
+// Forward declarations
+class Skill;
+class Spell;
 
 class Demigod : public Entity{
 
@@ -32,7 +39,7 @@ private:
 public:
     // Constructors
     Demigod() = default;
-    Demigod(std::string name, int challenge_rating, int hp, Lifebar demigod_lifebar, int attack, int defense, int magic_attack, int magic_defense, int agility, Weapon right_hand, Weapon left_hand);
+    Demigod(std::string name, int challenge_rating, int hp, int attack, int defense, int magic_attack, int magic_defense, int agility, Weapon right_hand, Weapon left_hand);
 
     // Setters
     void setDemigodName(std::string name);
@@ -57,6 +64,14 @@ public:
     // Unique methods
     void AssignRightHandWeapon(Weapon weapon);
     void AssignLeftHandWeapon(Weapon weapon);
+
+    // Lifebar Methods
+    void deductHp(int amount) { demigod_lifebar.deductHp(amount); }
+    void addHp(int amount) { demigod_lifebar.addHp(amount); }
+    void displayLifebar() const { demigod_lifebar.displayLifebar(); }
+    int getCurrentHp() const { return demigod_lifebar.getCurrentValue(); }
+    int getMaxHp() const { return demigod_lifebar.getMaxValue(); }
+
 };
 
 

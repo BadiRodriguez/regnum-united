@@ -3,6 +3,8 @@
 //
 
 #include "Character.h"
+#include "Skill.h"
+#include "Spell.h"
 
 #include <utility>
 
@@ -19,14 +21,14 @@ Character::Character()
         agility(10)
         {}
 
-Character::Character(std::string name, int level, int experience, int hp, Lifebar character_lifebar, int attack, int defense, int magic_attack, int magic_defense, int agility):
+Character::Character(std::string name, int level, int experience, int hp, int attack, int defense, int magic_attack, int magic_defense, int agility):
     Entity(true)
     {
     this -> name = std::move(name);
     this -> level = level;
     this -> experience = experience;
     this -> hp = hp;
-    this -> character_lifebar = character_lifebar;
+    this -> character_lifebar = Lifebar(hp);
     this -> attack = attack;
     this -> defense = defense;
     this -> magic_attack = magic_attack;
@@ -105,8 +107,9 @@ void Character::levelUp(int num_of_levels) {
     level += num_of_levels;
 }
 
-void Character::equipWeapon(const Weapon& rightHand, const Weapon& leftHand) {
-    // Implementation for equipping weapons
+void Character::equipWeapon(const Weapon& right_Hand, const Weapon& left_Hand) {
+    this -> right_hand = right_Hand;
+    this -> left_hand = left_Hand;
 }
 
 void Character::addSkill(std::unique_ptr<Skill> skill) {

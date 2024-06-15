@@ -2,9 +2,13 @@
 #ifndef SKILL_H
 #define SKILL_H
 
+#include <iostream>
 #include <string>
 #include <functional>
 #include "Character.h"
+
+class Character; // Forward declaration
+class Demigod; // Forward declaration
 
 class Skill {
 public:

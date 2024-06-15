@@ -6,11 +6,11 @@
 
 #include <utility>
 
-Demigod::Demigod(std::string name, int challenge_rating, int hp, Lifebar demigod_lifebar, int attack, int defense, int magic_attack, int magic_defense, int agility, Weapon right_hand, Weapon left_hand) {
+Demigod::Demigod(std::string name, int challenge_rating, int hp, int attack, int defense, int magic_attack, int magic_defense, int agility, Weapon right_hand, Weapon left_hand): Entity(false) {
     this -> name = std::move(name);
     this -> challenge_rating = challenge_rating;
     this -> hp = hp;
-    this -> demigod_lifebar = demigod_lifebar;
+    this -> demigod_lifebar = Lifebar(hp);
     this -> attack = attack;
     this -> defense = defense;
     this -> magic_attack = magic_attack;
