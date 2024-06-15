@@ -6,7 +6,7 @@
 
 #include <utility>
 
-Spell::Spell(std::string name, std::string elementalType, std::function<void(Character&, Character&)> formula, bool heals)
+Spell::Spell(std::string name, std::string elementalType, std::function<void(Entity&, Entity&)> formula, bool heals)
         : name(std::move(name)), elementalType(std::move(elementalType)), formula(std::move(formula)), heals(heals) {}
 
 const std::string &Spell::getName() const {
@@ -17,6 +17,6 @@ const std::string &Spell::getElementalType() const {
     return elementalType;
 }
 
-void Spell::use(Character &user, Character &target) const {
+void Spell::use(Entity &user, Entity &target) const {
     formula(user, target);
 }

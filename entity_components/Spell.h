@@ -13,16 +13,16 @@ class Demigod; // Forward declaration
 
 class Spell {
 public:
-    Spell(std::string name, std::string elementalType, std::function<void(Character&, Character&)> formula, bool heals = false);
+    Spell(std::string name, std::string elementalType, std::function<void(Entity&, Entity&)> formula, bool heals = false);
 
     const std::string &getName() const;
     const std::string &getElementalType() const;
-    void use(Character &user, Character &target) const;
+    void use(Entity &user, Entity &target) const;
 
 private:
     std::string name;
     std::string elementalType;
-    std::function<void(Character&, Character&)> formula;
+    std::function<void(Entity&, Entity&)> formula;
     bool heals;
 };
 

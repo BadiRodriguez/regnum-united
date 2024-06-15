@@ -1,58 +1,37 @@
-#include <iostream>
 #include "entity_components/Land.h"
-#include "entity_components/Character.h"
-
-void physicalAttackFormula(Character &user, Character &target) {
-    int damage = user.getAttack() - target.getDefense();
-    std::cout << target.getCharacterName() << " takes " << damage << " damage!" << std::endl;
-}
-
-void fireSpellFormula(Character &user, Character &target) {
-    int damage = user.getMagic_attack() - target.getMagic_defense();
-    std::cout << target.getCharacterName() << " takes " << damage << " fire damage!" << std::endl;
-}
+#include "entity_components/Menu.h"
 
 int main() {
-    // Create instances of each Land type
-    Necrolimbo necrolimbo;
     Caelid caelid;
+    Necrolimbo necrolimbo;
     Ciudad_Eterna ciudadEterna;
-    Forja_de_gigante forjaDeGigante;
+    Forja_de_gigante forjaDelGigante;
 
-    // Add structures to Necrolimbo
-    necrolimbo.addStructure<Cuevas>();
-    necrolimbo.addStructure<Tuneles>();
+    caelid.addStructure(CamposAbiertos());
+    caelid.addStructure(Cuevas());
+    caelid.addStructure(Puentes());
 
-    // Add structures to Caelid
-    caelid.addStructure<Catacumbas>();
-    caelid.addStructure<Puentes>();
+    necrolimbo.addStructure(Catacumbas());
+    necrolimbo.addStructure(Cuevas());
+    necrolimbo.addStructure(CamposAbiertos());
 
-    // Add structures to Ciudad Eterna
-    ciudadEterna.addStructure<CamposAbiertos>();
-    ciudadEterna.addStructure<Tuneles>();
+    ciudadEterna.addStructure(Puentes());
+    ciudadEterna.addStructure(CamposAbiertos());
 
-    // Add structures to Forja de Gigante
-    forjaDeGigante.addStructure<Cuevas>();
-    forjaDeGigante.addStructure<Catacumbas>();
+    forjaDelGigante.addStructure(Puentes());
+    forjaDelGigante.addStructure(CamposAbiertos());
 
-    // Describe each Land
-    necrolimbo.describe();
-    necrolimbo.printStructures();
+    std::cout << "----Elder Ring----" << std::endl;
+    std::cout << "[Presione enter para continuar]" << std::endl;
+    std::cin.get();
 
-    caelid.describe();
-    caelid.printStructures();
-
-    ciudadEterna.describe();
-    ciudadEterna.printStructures();
-
-    forjaDeGigante.describe();
-    forjaDeGigante.printStructures();
-
-    Character hero("Hero", 1, 0, 100, 15, 10, 20, 10, 10);
-    Character enemy("Enemy", 1, 0, 80, 10, 5, 15, 10, 5);
-
-    hero.displayLifebar();
-
-    return 0;
-
+    while (true) {
+        std::cout << "Elige una Land (Selecciona un numero): " << std::endl;
+        Menu({"Caelid", "Necrolimbo", "Ciudad Eterna", "Forja del Gigante", "Salir"},
+             [&]() { std::cout << caelid; },
+             [&]() { std::cout << necrolimbo; },
+             [&]() { std::cout << ciudadEterna; },
+             [&]() { std::cout << forjaDelGigante; },
+             [&]() { exit(0); });
+    }
 }

@@ -7,12 +7,15 @@
 
 #include <iostream>
 #include <string>
+#include <utility>
 
 class Structures {
 protected:
     std::string name;
 public:
-    explicit Structures(const std::string& name) : name(name) {}
+    explicit Structures(std::string  name) : name(std::move(name)) {}
+
+    std::string getName(){ return name; }
 
     virtual void printName() const {
         std::cout << "These are the " << name << std::endl;
