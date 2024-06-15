@@ -16,13 +16,11 @@ class Skill;
 class Spell;
 
 class Character : public Entity {
-
 private:
     std::string name;
     int level;
     int experience;
     int experience_to_next_level;
-    int hp;
     Lifebar character_lifebar;
     int attack;
     int defense;
@@ -80,6 +78,7 @@ public:
     int getMaxHp() const { return character_lifebar.getMaxValue(); }
 
     // Additional Methods
+    virtual void describe() const;
 };
 
-#endif //REGNUM_UNITED_CHARACTER_H
+#endif // REGNUM_UNITED_CHARACTER_H

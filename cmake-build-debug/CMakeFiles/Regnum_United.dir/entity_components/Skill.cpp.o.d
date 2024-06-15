@@ -1,7 +1,7 @@
 CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.o: \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Skill.cpp \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Skill.cpp \
  /usr/include/stdc-predef.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Skill.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Skill.h \
  /usr/include/c++/14.1.1/string \
  /usr/include/c++/14.1.1/bits/requires_hosted.h \
  /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -124,4 +124,4 @@ CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.o: \
  /usr/include/c++/14.1.1/bits/stl_vector.h \
  /usr/include/c++/14.1.1/bits/stl_bvector.h \
  /usr/include/c++/14.1.1/bits/vector.tcc /usr/include/c++/14.1.1/array \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Entity.h
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Entity.h

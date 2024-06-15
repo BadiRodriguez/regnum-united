@@ -18,8 +18,8 @@ void Menu(const std::vector<std::string>& options, Funcs... funcs) {
     int choice;
     while (true) {
         std::cout << "Select an option:\n";
-        for (size_t i = 0; i < options.size(); ++i) {
-            std::cout << i + 1 << ") " << options[i] << "\n";
+        for (int index = 0; index < options.size(); ++index) {
+            std::cout << index + 1 << ") " << options[index] << "\n";
         }
         std::cin >> choice;
 

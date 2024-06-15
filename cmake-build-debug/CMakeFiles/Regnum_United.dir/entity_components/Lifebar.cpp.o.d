@@ -1,7 +1,7 @@
 CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.o: \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Lifebar.cpp \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Lifebar.cpp \
  /usr/include/stdc-predef.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Lifebar.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Lifebar.h \
  /usr/include/c++/14.1.1/iostream \
  /usr/include/c++/14.1.1/bits/requires_hosted.h \
  /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++config.h \

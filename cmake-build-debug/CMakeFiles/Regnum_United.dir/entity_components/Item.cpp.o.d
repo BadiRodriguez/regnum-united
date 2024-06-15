@@ -1,5 +1,5 @@
 CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.o: \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Item.cpp \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Item.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14.1.1/iostream \
  /usr/include/c++/14.1.1/bits/requires_hosted.h \
  /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -143,4 +143,4 @@ CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.o: \
  /usr/include/c++/14.1.1/bits/basic_ios.tcc \
  /usr/include/c++/14.1.1/bits/ostream.tcc /usr/include/c++/14.1.1/istream \
  /usr/include/c++/14.1.1/bits/istream.tcc \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Item.h
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Item.h

@@ -1,7 +1,7 @@
 CMakeFiles/Regnum_United.dir/main.cpp.o: \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/main.cpp \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/main.cpp \
  /usr/include/stdc-predef.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Land.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Land.h \
  /usr/include/c++/14.1.1/iostream \
  /usr/include/c++/14.1.1/bits/requires_hosted.h \
  /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -159,12 +159,12 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: \
  /usr/include/c++/14.1.1/bits/ranges_algobase.h \
  /usr/include/c++/14.1.1/pstl/glue_algorithm_defs.h \
  /usr/include/c++/14.1.1/pstl/execution_defs.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Combat.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Monster.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Lifebar.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Entity.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Item.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Character.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Combat.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Monster.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Lifebar.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Entity.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Item.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Character.h \
  /usr/include/c++/14.1.1/memory \
  /usr/include/c++/14.1.1/bits/stl_raw_storage_iter.h \
  /usr/include/c++/14.1.1/bits/align.h \
@@ -198,10 +198,10 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: \
  /usr/include/c++/14.1.1/backward/auto_ptr.h \
  /usr/include/c++/14.1.1/bits/ranges_uninitialized.h \
  /usr/include/c++/14.1.1/pstl/glue_memory_defs.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Weapon.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Weapon.h \
  /usr/include/c++/14.1.1/utility \
  /usr/include/c++/14.1.1/bits/stl_relops.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Skill.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Skill.h \
  /usr/include/c++/14.1.1/functional \
  /usr/include/c++/14.1.1/bits/std_function.h \
  /usr/include/c++/14.1.1/unordered_map \
@@ -211,15 +211,15 @@ CMakeFiles/Regnum_United.dir/main.cpp.o: \
  /usr/include/c++/14.1.1/bits/enable_special_members.h \
  /usr/include/c++/14.1.1/bits/node_handle.h \
  /usr/include/c++/14.1.1/bits/erase_if.h /usr/include/c++/14.1.1/array \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Spell.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Structures.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Menu.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Spell.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Structures.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Menu.h \
  /usr/include/c++/14.1.1/limits \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Menu.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Entity.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Character.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Combat.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Spell.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Skill.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Monster.h \
- /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Structures.h
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Menu.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Entity.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Character.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Combat.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Spell.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Skill.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Monster.h \
+ /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Structures.h

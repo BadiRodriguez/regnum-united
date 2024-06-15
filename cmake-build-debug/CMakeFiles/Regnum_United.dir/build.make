@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united"
+CMAKE_SOURCE_DIR = "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Regnum_United.dir/depend.make
@@ -70,186 +70,186 @@ include CMakeFiles/Regnum_United.dir/progress.make
 include CMakeFiles/Regnum_United.dir/flags.make
 
 CMakeFiles/Regnum_United.dir/main.cpp.o: CMakeFiles/Regnum_United.dir/flags.make
-CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/main.cpp
+CMakeFiles/Regnum_United.dir/main.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/main.cpp
 CMakeFiles/Regnum_United.dir/main.cpp.o: CMakeFiles/Regnum_United.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Regnum_United.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/main.cpp.o -MF CMakeFiles/Regnum_United.dir/main.cpp.o.d -o CMakeFiles/Regnum_United.dir/main.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Regnum_United.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/main.cpp.o -MF CMakeFiles/Regnum_United.dir/main.cpp.o.d -o CMakeFiles/Regnum_United.dir/main.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/main.cpp"
 
 CMakeFiles/Regnum_United.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Regnum_United.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/main.cpp" > CMakeFiles/Regnum_United.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/main.cpp" > CMakeFiles/Regnum_United.dir/main.cpp.i
 
 CMakeFiles/Regnum_United.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Regnum_United.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/main.cpp" -o CMakeFiles/Regnum_United.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/main.cpp" -o CMakeFiles/Regnum_United.dir/main.cpp.s
 
 CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.o: CMakeFiles/Regnum_United.dir/flags.make
-CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Character.cpp
+CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Character.cpp
 CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.o: CMakeFiles/Regnum_United.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Character.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Character.cpp"
 
 CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Character.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Character.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.i
 
 CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Character.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Character.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Character.cpp.s
 
 CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.o: CMakeFiles/Regnum_United.dir/flags.make
-CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Lifebar.cpp
+CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Lifebar.cpp
 CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.o: CMakeFiles/Regnum_United.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Lifebar.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Lifebar.cpp"
 
 CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Lifebar.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Lifebar.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.i
 
 CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Lifebar.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Lifebar.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Lifebar.cpp.s
 
 CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.o: CMakeFiles/Regnum_United.dir/flags.make
-CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Weapon.cpp
+CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Weapon.cpp
 CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.o: CMakeFiles/Regnum_United.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Weapon.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Weapon.cpp"
 
 CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Weapon.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Weapon.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.i
 
 CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Weapon.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Weapon.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Weapon.cpp.s
 
 CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.o: CMakeFiles/Regnum_United.dir/flags.make
-CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/WeaponTemplate.cpp
+CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/WeaponTemplate.cpp
 CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.o: CMakeFiles/Regnum_United.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/WeaponTemplate.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/WeaponTemplate.cpp"
 
 CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/WeaponTemplate.cpp" > CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/WeaponTemplate.cpp" > CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.i
 
 CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/WeaponTemplate.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/WeaponTemplate.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/WeaponTemplate.cpp.s
 
 CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.o: CMakeFiles/Regnum_United.dir/flags.make
-CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Class.cpp
+CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Class.cpp
 CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.o: CMakeFiles/Regnum_United.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Class.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Class.cpp"
 
 CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Class.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Class.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.i
 
 CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Class.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Class.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Class.cpp.s
 
 CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.o: CMakeFiles/Regnum_United.dir/flags.make
-CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Entity.cpp
+CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Entity.cpp
 CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.o: CMakeFiles/Regnum_United.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Entity.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Entity.cpp"
 
 CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Entity.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Entity.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.i
 
 CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Entity.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Entity.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Entity.cpp.s
 
 CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.o: CMakeFiles/Regnum_United.dir/flags.make
-CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Item.cpp
+CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Item.cpp
 CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.o: CMakeFiles/Regnum_United.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Item.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Item.cpp"
 
 CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Item.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Item.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.i
 
 CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Item.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Item.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Item.cpp.s
 
 CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.o: CMakeFiles/Regnum_United.dir/flags.make
-CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/weapons_list.cpp
+CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/weapons_list.cpp
 CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.o: CMakeFiles/Regnum_United.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/weapons_list.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/weapons_list.cpp"
 
 CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/weapons_list.cpp" > CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/weapons_list.cpp" > CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.i
 
 CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/weapons_list.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/weapons_list.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/weapons_list.cpp.s
 
 CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.o: CMakeFiles/Regnum_United.dir/flags.make
-CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Skill.cpp
+CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Skill.cpp
 CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.o: CMakeFiles/Regnum_United.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Skill.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Skill.cpp"
 
 CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Skill.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Skill.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.i
 
 CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Skill.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Skill.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Skill.cpp.s
 
 CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.o: CMakeFiles/Regnum_United.dir/flags.make
-CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Spell.cpp
+CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Spell.cpp
 CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.o: CMakeFiles/Regnum_United.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Spell.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Spell.cpp"
 
 CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Spell.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Spell.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.i
 
 CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Spell.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Spell.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Spell.cpp.s
 
 CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.o: CMakeFiles/Regnum_United.dir/flags.make
-CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Demigod.cpp
+CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Demigod.cpp
 CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.o: CMakeFiles/Regnum_United.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Demigod.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Demigod.cpp"
 
 CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Demigod.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Demigod.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.i
 
 CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Demigod.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Demigod.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.s
 
 CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.o: CMakeFiles/Regnum_United.dir/flags.make
-CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/regnum-united/entity_components/Monster.cpp
+CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.o: /home/jfpro/UTEC/Ciclo\ 3/Programación\ III/rcopia/regnum-united/entity_components/Monster.cpp
 CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.o: CMakeFiles/Regnum_United.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Monster.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.o -MF CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.o.d -o CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.o -c "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Monster.cpp"
 
 CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Monster.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Monster.cpp" > CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.i
 
 CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Monster.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/entity_components/Monster.cpp" -o CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.s
 
 # Object files for target Regnum_United
 Regnum_United_OBJECTS = \
@@ -285,7 +285,7 @@ Regnum_United: CMakeFiles/Regnum_United.dir/entity_components/Demigod.cpp.o
 Regnum_United: CMakeFiles/Regnum_United.dir/entity_components/Monster.cpp.o
 Regnum_United: CMakeFiles/Regnum_United.dir/build.make
 Regnum_United: CMakeFiles/Regnum_United.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Regnum_United"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Regnum_United"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Regnum_United.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -297,6 +297,6 @@ CMakeFiles/Regnum_United.dir/clean:
 .PHONY : CMakeFiles/Regnum_United.dir/clean
 
 CMakeFiles/Regnum_United.dir/depend:
-	cd "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united" "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united" "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug" "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug" "/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/cmake-build-debug/CMakeFiles/Regnum_United.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united" "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united" "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug" "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug" "/home/jfpro/UTEC/Ciclo 3/Programación III/rcopia/regnum-united/cmake-build-debug/CMakeFiles/Regnum_United.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/Regnum_United.dir/depend
 

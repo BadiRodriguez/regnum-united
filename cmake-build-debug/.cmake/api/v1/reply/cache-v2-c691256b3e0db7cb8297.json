@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jfpro/UTEC/Ciclo 3/Programaci\u00f3n III/regnum-united/cmake-build-debug"
+			"value" : "/home/jfpro/UTEC/Ciclo 3/Programaci\u00f3n III/rcopia/regnum-united/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -627,7 +627,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jfpro/UTEC/Ciclo 3/Programaci\u00f3n III/regnum-united/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/jfpro/UTEC/Ciclo 3/Programaci\u00f3n III/rcopia/regnum-united/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -687,7 +687,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jfpro/UTEC/Ciclo 3/Programaci\u00f3n III/regnum-united"
+			"value" : "/home/jfpro/UTEC/Ciclo 3/Programaci\u00f3n III/rcopia/regnum-united"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1271,7 +1271,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jfpro/UTEC/Ciclo 3/Programaci\u00f3n III/regnum-united/cmake-build-debug"
+			"value" : "/home/jfpro/UTEC/Ciclo 3/Programaci\u00f3n III/rcopia/regnum-united/cmake-build-debug"
 		},
 		{
 			"name" : "Regnum_United_IS_TOP_LEVEL",
@@ -1295,7 +1295,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jfpro/UTEC/Ciclo 3/Programaci\u00f3n III/regnum-united"
+			"value" : "/home/jfpro/UTEC/Ciclo 3/Programaci\u00f3n III/rcopia/regnum-united"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

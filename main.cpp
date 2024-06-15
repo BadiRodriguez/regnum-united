@@ -10,6 +10,7 @@
 #include <iostream>
 #include <vector>
 #include <limits>
+#include <memory>
 
 void offensiveSkill(Entity &user, Entity &target) {
     Character *charTarget = dynamic_cast<Character *>(&target);
@@ -29,7 +30,7 @@ void healingSpell(Entity &user, Entity &target) {
     }
 }
 
-Character createCharacterMenu() {
+std::unique_ptr<Character> createCharacterMenu() {
     int choice;
     std::string name;
     while (true) {
@@ -54,39 +55,39 @@ Character createCharacterMenu() {
 
     switch (choice) {
         case 1:
-            return {name, 1, 0, 500, 150, 20, 15, 30, 25}; // Example stats for Warrior
+            return std::make_unique<Character>(name, 1, 0, 500, 150, 20, 15, 30, 25); // Example stats for Warrior
         case 2:
-            return {name, 1, 0, 300, 80, 10, 40, 50, 15}; // Example stats for Mage
+            return std::make_unique<Character>(name, 1, 0, 300, 80, 10, 40, 50, 15); // Example stats for Mage
         case 3:
-            return {name, 1, 0, 400, 100, 15, 20, 35, 30}; // Example stats for Archer
+            return std::make_unique<Character>(name, 1, 0, 400, 100, 15, 20, 35, 30); // Example stats for Archer
         default:
             std::cout << "Invalid choice! Defaulting to Warrior.\n";
-            return {name, 1, 0, 500, 150, 20, 15, 30, 25};
+            return std::make_unique<Character>(name, 1, 0, 500, 150, 20, 15, 30, 25);
     }
 }
 
-void displayMenuAndStartCombat(Character& player) {
-    Caelid caelid;
-    Necrolimbo necrolimbo;
-    Ciudad_Eterna ciudadEterna;
-    Forja_de_gigante forjaDelGigante;
+void displayMenuAndStartCombat(std::unique_ptr<Character>& player) {
+    auto caelid = std::make_unique<Caelid>();
+    auto necrolimbo = std::make_unique<Necrolimbo>();
+    auto ciudadEterna = std::make_unique<Ciudad_Eterna>();
+    auto forjaDelGigante = std::make_unique<Forja_de_gigante>();
 
-    caelid.addStructure(CamposAbiertos());
-    caelid.addStructure(Cuevas());
-    caelid.addStructure(Puentes());
+    caelid->addStructure(CamposAbiertos());
+    caelid->addStructure(Cuevas());
+    caelid->addStructure(Puentes());
 
-    necrolimbo.addStructure(Catacumbas());
-    necrolimbo.addStructure(Cuevas());
-    necrolimbo.addStructure(CamposAbiertos());
+    necrolimbo->addStructure(Catacumbas());
+    necrolimbo->addStructure(Cuevas());
+    necrolimbo->addStructure(CamposAbiertos());
 
-    ciudadEterna.addStructure(Puentes());
-    ciudadEterna.addStructure(CamposAbiertos());
+    ciudadEterna->addStructure(Puentes());
+    ciudadEterna->addStructure(CamposAbiertos());
 
-    forjaDelGigante.addStructure(Puentes());
-    forjaDelGigante.addStructure(CamposAbiertos());
+    forjaDelGigante->addStructure(Puentes());
+    forjaDelGigante->addStructure(CamposAbiertos());
 
-    std::vector<Land*> lands = {&caelid, &necrolimbo, &ciudadEterna, &forjaDelGigante};
-    std::vector<std::string> options = {"Caelid", "Necrolimbo", "Ciudad Eterna", "Forja de Gigante"};
+    std::vector<Land*> lands = {caelid.get(), necrolimbo.get(), ciudadEterna.get(), forjaDelGigante.get()};
+    std::vector<std::string> options = {"Caelid", "Necrolimbo", "Ciudad Eterna", "Forja de Gigante", "Salir"};
 
     int choice;
     while (true) {
@@ -97,20 +98,22 @@ void displayMenuAndStartCombat(Character& player) {
         std::cout << "Enter your choice: ";
         std::cin >> choice;
 
-        if (std::cin.fail() || choice < 1 || choice > static_cast<int>(lands.size())) {
+        if (std::cin.fail() || choice < 1 || choice > static_cast<int>(lands.size()) + 1) {
             std::cin.clear(); // clear the error flag
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // discard invalid input
             std::cout << "Invalid choice! Please try again.\n";
+        } else if (choice == 5) {
+            exit(0);
         } else {
             Land* selectedLand = lands[choice - 1];
-            selectedLand->showMenu(player);
+            selectedLand->showMenu(*player);
         }
     }
 }
 
 int main() {
     // Create a character through the menu
-    Character player = createCharacterMenu();
+    auto player = createCharacterMenu();
 
     // Display the menu and start combat
     displayMenuAndStartCombat(player);
