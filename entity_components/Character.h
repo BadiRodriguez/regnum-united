@@ -22,6 +22,7 @@ private:
     int defense;
     int magic_attack;
     int magic_defense;
+    int agility;
     Weapon right_hand; // Right hand weapon
     Weapon left_hand;  // Left hand weapon
     std::vector<std::unique_ptr<Skill>> skills;
@@ -30,7 +31,7 @@ private:
 public:
     // Constructors
     Character();
-    Character(std::string name, int level, int experience, int hp, Lifebar character_lifebar, int attack, int defense, int magic_attack, int magic_defense);
+    Character(std::string name, int level, int experience, int hp, Lifebar character_lifebar, int attack, int defense, int magic_attack, int magic_defense, int agility);
 
     // Setters
     void setCharacterName(std::string name);
@@ -40,6 +41,7 @@ public:
     void setDefense(int value);
     void setMagic_attack(int value);
     void setMagic_defense(int value);
+    void setAgility(int value);
 
     // Getters
     std::string getCharacterName() const { return name; }
@@ -49,6 +51,7 @@ public:
     int getDefense() const { return defense; }
     int getMagic_attack() const { return magic_attack; }
     int getMagic_defense() const { return magic_defense; }
+    int getAgility() const { return agility; }
 
     // Additional methods
     void levelUp(int num_of_levels);

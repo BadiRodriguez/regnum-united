@@ -10,6 +10,7 @@
 
 template<typename WeaponType>
 class WeaponTemplate: public Weapon{
+    friend Weapon;
 public:
     WeaponTemplate(std::string name, int damage, int value) : Weapon(std::move(name), damage, value, WeaponType::damageType) {};
 };

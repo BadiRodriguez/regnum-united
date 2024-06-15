@@ -15,10 +15,11 @@ Character::Character()
         attack(10),
         defense(10),
         magic_attack(10),
-        magic_defense(10)
+        magic_defense(10),
+        agility(10)
         {}
 
-Character::Character(std::string name, int level, int experience, int hp, Lifebar character_lifebar, int attack, int defense, int magic_attack, int magic_defense):
+Character::Character(std::string name, int level, int experience, int hp, Lifebar character_lifebar, int attack, int defense, int magic_attack, int magic_defense, int agility):
     Entity(true)
     {
     this -> name = std::move(name);
@@ -30,6 +31,7 @@ Character::Character(std::string name, int level, int experience, int hp, Lifeba
     this -> defense = defense;
     this -> magic_attack = magic_attack;
     this -> magic_defense = magic_defense;
+    this -> agility = agility;
 }
 
 void Character::setCharacterName(std::string new_name){
@@ -82,6 +84,15 @@ void Character::setMagic_defense(int new_magic_defense) {
     }
     else{
         magic_defense = new_magic_defense;
+    }
+}
+
+void Character::setAgility(int new_agility) {
+    if(new_agility < 0){
+        agility = 0;
+    }
+    else{
+        agility = new_agility;
     }
 }
 
