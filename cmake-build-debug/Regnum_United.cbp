@@ -94,6 +94,9 @@
 		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Class.h">
 			<Option target="Regnum_United"/>
 		</Unit>
+		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Combat.h">
+			<Option target="Regnum_United"/>
+		</Unit>
 		<Unit filename="/home/jfpro/UTEC/Ciclo 3/Programación III/regnum-united/entity_components/Demigod.cpp">
 			<Option target="Regnum_United"/>
 		</Unit>

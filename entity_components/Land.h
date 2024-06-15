@@ -4,6 +4,8 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+
+#include "Combat.h"
 #include "Structures.h"
 #include "Menu.h"
 
@@ -40,7 +42,11 @@ class Necrolimbo : public Land {
 public:
     Necrolimbo() : Land("Necrolimbo") {}
     void showMenu(vector<string> &options) override {
-        Menu(options, []{}, []{}, []{});
+        Menu(options, [] {
+            normalCombat(Character("flauta", 2, 0, 160, 12, 14, 5, 9, 20),
+                {Monster("jijija", 1, 25, 10, 10, 4, 8, 9, {}),
+                Monster("Popopo", 2, 23, 11, 7, 5, 6, 17, {})});
+        }, []{}, []{});
     }
 };
 

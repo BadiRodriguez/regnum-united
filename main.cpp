@@ -68,6 +68,9 @@ int main() {
     std::cout << "[Presione enter para continuar]" << std::endl;
     std::cin.get();
 
+    std::cout << "Elige un Personaje (Selecciona un numero): " << std::endl;
+    //Menu({""},);
+
     while (true) {
         std::cout << "Elige una Land (Selecciona un numero): " << std::endl;
         Menu({"Caelid", "Necrolimbo", "Ciudad Eterna", "Forja del Gigante", "Salir"},
