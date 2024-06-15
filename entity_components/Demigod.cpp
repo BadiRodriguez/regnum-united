@@ -10,7 +10,7 @@ Demigod::Demigod(std::string name, int challenge_rating, int hp, int attack, int
     this -> name = std::move(name);
     this -> challenge_rating = challenge_rating;
     this -> hp = hp;
-    this -> demigod_lifebar = Lifebar(hp);
+    this -> demigod_lifebar = Lifebar(hp, 40);
     this -> attack = attack;
     this -> defense = defense;
     this -> magic_attack = magic_attack;
